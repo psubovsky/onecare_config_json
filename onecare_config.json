@@ -1,0 +1,811 @@
+{
+  "env": "prod",
+  "default_endpoint": "https://aocflow-endpoint.avaya.com/0d137ae1d366efe11375f3c8271a2851d1eaa97a941f6ea8f2262f5073d277a3",
+  "default_webchat_title": "Avaya Bot",
+  "url_white_list": [
+    {
+      "name": "alpha_collector",
+      "substring": "alpha=",
+      "hide": false,
+      "maximize": true,
+      "endpoint": "https://aocflow-endpoint.avaya.com/5fcc97a8e1f9a9646aba76e8893998492a9a80d9fa7faa99f218fda6e4fc375c",
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "Avaya Bot",
+          "engagement_message": "",
+          "engagement_quick_replies": []
+        }
+      }
+    },
+    {
+      "name": "pub_form_associate_global_password",
+      "substring": "category=1399782393469",
+      "endpoint": "https://aocflow-endpoint.avaya.com/0d137ae1d366efe11375f3c8271a2851d1eaa97a941f6ea8f2262f5073d277a3",
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "IT Support AI Agent",
+          "engagement_message": "Hi! I can reset your password",
+          "engagement_quick_replies": [
+            {"button":"Forgot password","say":"I forgot my password"},
+            {"button":"Change password","say":"I would like to change my password"},
+            {"button":"Login issues","say":"I am experiencing issues when login to resources"}
+          ]
+        },
+        "ar":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "مرحبا! يمكنني إعادة تعيين كلمة المرور الخاصة بك",
+            "engagement_quick_replies": [
+              {"button":"هل نسيت كلمة السر","say":"لقد نسيت كلمة المرور"},
+              {"button":"تغيير كلمة المرور","say":"أود تغيير كلمة المرور الخاصة بي"},
+              {"button":"مشاكل تسجيل الدخول","say":"أواجه مشاكل عند تسجيل الدخول إلى الموارد"}
+            ]
+        },
+        "de":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Hallo! Ich kann Ihr Passwort zurücksetzen",
+            "engagement_quick_replies": [
+              {"button":"Passwort vergessen","say":"Ich habe mein Passwort vergessen"},
+              {"button":"Kennwort ändern","say":"Ich möchte mein Passwort ändern"},
+              {"button":"Anmelde Probleme","say":"Ich habe Probleme, wenn ich mich bei Ressourcen anmelde"}
+            ]
+        },
+        "es":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "¡Hola! Puedo restablecer tu contraseña",
+            "engagement_quick_replies": [
+              {"button":"Olvidé mi contraseña","say":"Olvidé mi contraseña"},
+              {"button":"Cambiar la contraseña","say":"Me gustaría cambiar mi contraseña"},
+              {"button":"Problemas para entrar","say":"Tengo problemas al iniciar sesión en los recursos"}
+            ]
+        },
+        "fr":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Salut! Je peux réinitialiser votre mot de passe",
+            "engagement_quick_replies": [
+              {"button":"Mot de passe oublié","say":"j'ai oublié mon mot de passe"},
+              {"button":"Changer le mot de passe","say":"Je voudrais changer mon mot de passe"},
+              {"button":"Problèmes de connexion","say":"Je rencontre des problèmes lors de la connexion aux ressources"}
+            ]
+        },
+        "he":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "היי! אני יכול לאפס את הסיסמה שלך",
+            "engagement_quick_replies": [
+              {"button":"שכחת את הסיסמא","say":"שכחתי את הסיסמא שלי"},
+              {"button":"שנה סיסמא","say":"אני רוצה לשנות את הסיסמה שלי"},
+              {"button":"בעיות התחברות","say":"אני נתקל בבעיות בעת הכניסה למשאבים"}
+            ]
+        },
+        "it":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Ciao! Posso reimpostare la tua password",
+            "engagement_quick_replies": [
+              {"button":"Ha dimenticato la password","say":"Ho dimenticato la mia password"},
+              {"button":"Cambiare la password","say":"Vorrei cambiare la mia password"},
+              {"button":"Problemi di accesso","say":"Sto riscontrando problemi durante l'accesso alle risorse"}
+            ]
+        },
+        "ja":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "こんにちは！パスワードをリセットできます",
+            "engagement_quick_replies": [
+              {"button":"パスワードをお忘れですか","say":"パスワードを忘れた"},
+              {"button":"パスワードを変更する","say":"パスワードを変更したい"},
+              {"button":"ログインの問題","say":"リソースにログインするときに問題が発生します"}
+            ]
+        },
+        "hi":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "नमस्ते! मैं आपका पासवर्ड रीसेट कर सकता हूँ",
+            "engagement_quick_replies": [
+              {"button":"पासवर्ड भूल गए","say":"मैं अपना पासवर्ड भूल गया"},
+              {"button":"पासवर्ड बदलें","say":"मैं अपना पासवर्ड बदलना चाहूंगा"},
+              {"button":"लॉगिन समस्याएं","say":"संसाधनों में लॉगिन करते समय मुझे समस्याओं का सामना करना पड़ रहा है"}
+            ]
+        },
+        "nl":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Hoi! Ik kan je wachtwoord opnieuw instellen",
+            "engagement_quick_replies": [
+              {"button":"Wachtwoord vergeten","say":"Ik ben mijn wachtwoord vergeten"},
+              {"button":"Wachtwoord wijzigen","say":"Ik wil mijn wachtwoord wijzigen"},
+              {"button":"Problemen bij het inloggen","say":"Ik ondervind problemen bij het inloggen op bronnen"}
+            ]
+        },
+        "pt":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Oi! Eu posso redefinir sua senha",
+            "engagement_quick_replies": [
+              {"button":"Esqueceu a senha","say":"Esqueci a minha senha"},
+              {"button":"Alterar a senha","say":"gostaria de mudar minha senha"},
+              {"button":"Problemas de acesso","say":"Estou tendo problemas ao fazer login nos recursos"}
+            ]
+        },
+        "ru":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Привет! Я могу сбросить ваш пароль",
+            "engagement_quick_replies": [
+              {"button":"Забыли пароль","say":"я забыл мой пароль"},
+              {"button":"Изменить пароль","say":"Я хотел бы изменить свой пароль"},
+              {"button":"Проблемы со входом","say":"У меня возникают проблемы при входе в ресурсы"}
+            ]
+        },
+        "zh":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "你好！我可以重设你的密码",
+            "engagement_quick_replies": [
+              {"button":"忘记密码","say":"我忘记了我的密码"},
+              {"button":"更改密码","say":"我想更改我的密码"},
+              {"button":"登录问题","say":"登录资源时遇到问题"}
+            ]
+        }
+      }
+    },
+    {
+      "name": "pub_form_partner_password",
+      "substring": "category=1399828238112",
+      "endpoint": "https://aocflow-endpoint.avaya.com/0d137ae1d366efe11375f3c8271a2851d1eaa97a941f6ea8f2262f5073d277a3",
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "IT Support AI Agent",
+          "engagement_message": "Hi! I can reset your password",
+          "engagement_quick_replies": [
+            {"button":"Forgot password","say":"I forgot my password"}
+          ]
+        },
+        "ar":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "مرحبا! يمكنني إعادة تعيين كلمة المرور الخاصة بك",
+            "engagement_quick_replies": [
+              {"button":"هل نسيت كلمة السر","say":"لقد نسيت كلمة المرور"}
+            ]
+        },
+        "de":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Hallo! Ich kann Ihr Passwort zurücksetzen",
+            "engagement_quick_replies": [
+              {"button":"Passwort vergessen","say":"Ich habe mein Passwort vergessen"}
+            ]
+        },
+        "es":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "¡Hola! Puedo restablecer tu contraseña",
+            "engagement_quick_replies": [
+              {"button":"Olvidé mi contraseña","say":"Olvidé mi contraseña"}
+            ]
+        },
+        "fr":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Salut! Je peux réinitialiser votre mot de passe",
+            "engagement_quick_replies": [
+              {"button":"Mot de passe oublié","say":"j'ai oublié mon mot de passe"}
+            ]
+        },
+        "he":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "היי! אני יכול לאפס את הסיסמה שלך",
+            "engagement_quick_replies": [
+              {"button":"שכחת את הסיסמא","say":"שכחתי את הסיסמא שלי"}
+            ]
+        },
+        "it":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Ciao! Posso reimpostare la tua password",
+            "engagement_quick_replies": [
+              {"button":"Ha dimenticato la password","say":"Ho dimenticato la mia password"}
+            ]
+        },
+        "ja":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "こんにちは！パスワードをリセットできます",
+            "engagement_quick_replies": [
+              {"button":"パスワードをお忘れですか","say":"パスワードを忘れた"}
+            ]
+        },
+        "hi":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "नमस्ते! मैं आपका पासवर्ड रीसेट कर सकता हूँ",
+            "engagement_quick_replies": [
+              {"button":"पासवर्ड भूल गए","say":"मैं अपना पासवर्ड भूल गया"}
+            ]
+        },
+        "nl":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Hoi! Ik kan je wachtwoord opnieuw instellen",
+            "engagement_quick_replies": [
+              {"button":"Wachtwoord vergeten","say":"Ik ben mijn wachtwoord vergeten"}
+            ]
+        },
+        "pt":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Oi! Eu posso redefinir sua senha",
+            "engagement_quick_replies": [
+              {"button":"Esqueceu a senha","say":"Esqueci a minha senha"}
+            ]
+        },
+        "ru":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Привет! Я могу сбросить ваш пароль",
+            "engagement_quick_replies": [
+              {"button":"Забыли пароль","say":"я забыл мой пароль"}
+            ]
+        },
+        "zh":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "你好！我可以重设你的密码",
+            "engagement_quick_replies": [
+              {"button":"忘记密码","say":"我忘记了我的密码"}
+            ]
+        }
+      }
+    },
+    {
+      "name": "priv_tile_report_outage",
+      "substring": "function=1397215362921",
+      "endpoint": "https://aocflow-endpoint.avaya.com/0d137ae1d366efe11375f3c8271a2851d1eaa97a941f6ea8f2262f5073d277a3",
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "IT Support AI Agent",
+          "engagement_message": "I am your fastest path to report an outage!",
+          "engagement_quick_replies":
+          [
+            {"button":"Report an outage","say":"report an outage"}
+          ]
+        },
+        "ar":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "أنا أسرع طريق للإبلاغ عن انقطاع التيار!",
+            "engagement_quick_replies": [
+              {"button":"الإبلاغ عن انقطاع التيار الكهربائي","say":"الإبلاغ عن انقطاع التيار الكهربائي"}
+            ]
+        },
+        "de":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Ich bin Ihr schnellster Weg, um einen Ausfall zu melden!",
+            "engagement_quick_replies": [
+              {"button":"Melden Sie einen Ausfall","say":"einen Ausfall melden"}
+            ]
+        },
+        "es":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "¡Soy el camino más rápido para reportar un apagón!",
+            "engagement_quick_replies": [
+              {"button":"Informar de un apagón","say":"reportar un apagón"}
+            ]
+        },
+        "fr":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Je suis votre chemin le plus rapide pour signaler une panne !",
+            "engagement_quick_replies": [
+              {"button":"Signaler une panne","say":"signaler une panne"}
+            ]
+        },
+        "he":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "אני הדרך המהירה ביותר שלך לדווח על הפסקה!",
+            "engagement_quick_replies": [
+              {"button":"דווח על הפסקה","say":"לדווח על הפסקה"}
+            ]
+        },
+        "it":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Sono il tuo percorso più veloce per segnalare un'interruzione!",
+            "engagement_quick_replies": [
+              {"button":"Segnala un'interruzione","say":"segnalare un'interruzione"}
+            ]
+        },
+        "ja":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "私は停止を報告するためのあなたの最速の道です！",
+            "engagement_quick_replies": [
+              {"button":"停止を報告する","say":"停止を報告する"}
+            ]
+        },
+        "hi":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "आउटेज की रिपोर्ट करने के लिए मैं आपका सबसे तेज़ मार्ग हूँ!",
+            "engagement_quick_replies": [
+              {"button":"एक आउटेज की रिपोर्ट करें","say":"एक आउटेज की रिपोर्ट करें"}
+            ]
+        },
+        "nl":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Ik ben je snelste pad om een ​​storing te melden!",
+            "engagement_quick_replies": [
+              {"button":"Een storing melden","say":"een storing melden"}
+            ]
+        },
+        "pt":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Eu sou o caminho mais rápido para relatar uma interrupção!",
+            "engagement_quick_replies": [
+              {"button":"Informar uma interrupção","say":"relatar uma interrupção"}
+            ]
+        },
+        "ru":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Я ваш самый быстрый способ сообщить об отключении!",
+            "engagement_quick_replies": [
+              {"button":"Сообщить об отключении","say":"сообщить об отключении"}
+            ]
+        },
+        "zh":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "我是您报告中断的最快途径！",
+            "engagement_quick_replies": [
+              {"button":"报告中断","say":"报告中断"}
+            ]
+        }
+      }
+    },
+    {
+      "name": "priv_form_it_chat_and_more",
+      "substring": "category=1397236263989",
+      "endpoint": "https://aocflow-endpoint.avaya.com/0d137ae1d366efe11375f3c8271a2851d1eaa97a941f6ea8f2262f5073d277a3",
+      "maximize": true,
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "IT Support AI Agent",
+          "engagement_message": "Hi! What can I do for you?",
+          "engagement_quick_replies": [
+            {"button":"Chat with a Live Agent","say":"transfer me to an agent"}
+          ]
+        },
+        "ar":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "مرحبا! ما الذي يمكنني أن أفعله من أجلك؟",
+            "engagement_quick_replies": [
+              {"button":"الدردشة مع وكيل مباشر","say":"نقلني إلى وكيل"}
+            ]
+        },
+        "de":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Hallo! Was kann ich für Dich tun?",
+            "engagement_quick_replies": [
+              {"button":"Chatten Sie mit einem Live-Agenten","say":"Überweisen Sie mich an einen Agenten"}
+            ]
+        },
+        "es":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "¡Hola! ¿Qué puedo hacer por ti?",
+            "engagement_quick_replies": [
+              {"button":"Chatear con un agente en vivo","say":"Transferencia a un agente"}
+            ]
+        },
+        "fr":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Salut! Que puis-je faire pour vous?",
+            "engagement_quick_replies": [
+              {"button":"transférez-moi à un agent","say":"transférez-moi à un agent"}
+            ]
+        },
+        "he":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "היי! מה אני יכול לעשות בשבילך?",
+            "engagement_quick_replies": [
+              {"button":"צ'אט עם סוכן חי","say":"להעביר אותי לסוכן"}
+            ]
+        },
+        "it":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Ciao! Cosa posso fare per lei?",
+            "engagement_quick_replies": [
+              {"button":"Chatta con un agente dal vivo","say":"trasferirmi a un agente"}
+            ]
+        },
+        "ja":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "こんにちは！どういうご用件ですか？",
+            "engagement_quick_replies": [
+              {"button":"ライブエージェントとチャットする","say":"私をエージェントに転送します"}
+            ]
+        },
+        "hi":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "नमस्ते! मै आप के लिये क्य कर सक्त हु?",
+            "engagement_quick_replies": [
+              {"button":"लाइव एजेंट के साथ चैट करें","say":"मुझे एक एजेंट के पास स्थानांतरित करें"}
+            ]
+        },
+        "nl":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Hoi! Wat kan ik voor jou doen?",
+            "engagement_quick_replies": [
+              {"button":"Chat met een Live Agent","say":"mij doorverbinden met een agent"}
+            ]
+        },
+        "pt":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Oi! O que posso fazer para você?",
+            "engagement_quick_replies": [
+              {"button":"Converse com um agente ao vivo","say":"transferir-me para um agente"}
+            ]
+        },
+        "ru":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Привет! Что я могу сделать для вас?",
+            "engagement_quick_replies": [
+              {"button":"Чат с живым агентом","say":"переведи меня к агенту"}
+            ]
+        },
+        "zh":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "你好！我能为你做什么？",
+            "engagement_quick_replies": [
+              {"button":"与现场代理聊天","say":"把我转给代理"}
+            ]
+        }
+      }
+    },
+    {
+      "name": "priv_form_it_password_global",
+      "substring": "category=1397217806390",
+      "endpoint": "https://aocflow-endpoint.avaya.com/0d137ae1d366efe11375f3c8271a2851d1eaa97a941f6ea8f2262f5073d277a3",
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "IT Support AI Agent",
+          "engagement_message": "Hi! I can reset your password",
+          "engagement_quick_replies": [
+            {"button":"Forgot password","say":"I forgot my password"},
+            {"button":"Change password","say":"I would like to change my password"},
+            {"button":"Login issues","say":"I am experiencing issues when login to resources"}
+          ]
+        },
+        "ar":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "مرحبا! يمكنني إعادة تعيين كلمة المرور الخاصة بك",
+            "engagement_quick_replies": [
+              {"button":"هل نسيت كلمة السر","say":"لقد نسيت كلمة المرور"},
+              {"button":"تغيير كلمة المرور","say":"أود تغيير كلمة المرور الخاصة بي"},
+              {"button":"مشاكل تسجيل الدخول","say":"أواجه مشاكل عند تسجيل الدخول إلى الموارد"}
+            ]
+        },
+        "de":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Hallo! Ich kann Ihr Passwort zurücksetzen",
+            "engagement_quick_replies": [
+              {"button":"Passwort vergessen","say":"Ich habe mein Passwort vergessen"},
+              {"button":"Kennwort ändern","say":"Ich möchte mein Passwort ändern"},
+              {"button":"Anmelde Probleme","say":"Ich habe Probleme, wenn ich mich bei Ressourcen anmelde"}
+            ]
+        },
+        "es":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "¡Hola! Puedo restablecer tu contraseña",
+            "engagement_quick_replies": [
+              {"button":"Olvidé mi contraseña","say":"Olvidé mi contraseña"},
+              {"button":"Cambiar la contraseña","say":"Me gustaría cambiar mi contraseña"},
+              {"button":"Problemas para entrar","say":"Tengo problemas al iniciar sesión en los recursos"}
+            ]
+        },
+        "fr":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Salut! Je peux réinitialiser votre mot de passe",
+            "engagement_quick_replies": [
+              {"button":"Mot de passe oublié","say":"j'ai oublié mon mot de passe"},
+              {"button":"Changer le mot de passe","say":"Je voudrais changer mon mot de passe"},
+              {"button":"Problèmes de connexion","say":"Je rencontre des problèmes lors de la connexion aux ressources"}
+            ]
+        },
+        "he":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "היי! אני יכול לאפס את הסיסמה שלך",
+            "engagement_quick_replies": [
+              {"button":"שכחת את הסיסמא","say":"שכחתי את הסיסמא שלי"},
+              {"button":"שנה סיסמא","say":"אני רוצה לשנות את הסיסמה שלי"},
+              {"button":"בעיות התחברות","say":"אני נתקל בבעיות בעת הכניסה למשאבים"}
+            ]
+        },
+        "it":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Ciao! Posso reimpostare la tua password",
+            "engagement_quick_replies": [
+              {"button":"Ha dimenticato la password","say":"Ho dimenticato la mia password"},
+              {"button":"Cambiare la password","say":"Vorrei cambiare la mia password"},
+              {"button":"Problemi di accesso","say":"Sto riscontrando problemi durante l'accesso alle risorse"}
+            ]
+        },
+        "ja":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "こんにちは！パスワードをリセットできます",
+            "engagement_quick_replies": [
+              {"button":"パスワードをお忘れですか","say":"パスワードを忘れた"},
+              {"button":"パスワードを変更する","say":"パスワードを変更したい"},
+              {"button":"ログインの問題","say":"リソースにログインするときに問題が発生します"}
+            ]
+        },
+        "hi":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "नमस्ते! मैं आपका पासवर्ड रीसेट कर सकता हूँ",
+            "engagement_quick_replies": [
+              {"button":"पासवर्ड भूल गए","say":"मैं अपना पासवर्ड भूल गया"},
+              {"button":"पासवर्ड बदलें","say":"मैं अपना पासवर्ड बदलना चाहूंगा"},
+              {"button":"लॉगिन समस्याएं","say":"संसाधनों में लॉगिन करते समय मुझे समस्याओं का सामना करना पड़ रहा है"}
+            ]
+        },
+        "nl":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Hoi! Ik kan je wachtwoord opnieuw instellen",
+            "engagement_quick_replies": [
+              {"button":"Wachtwoord vergeten","say":"Ik ben mijn wachtwoord vergeten"},
+              {"button":"Wachtwoord wijzigen","say":"Ik wil mijn wachtwoord wijzigen"},
+              {"button":"Problemen bij het inloggen","say":"Ik ondervind problemen bij het inloggen op bronnen"}
+            ]
+        },
+        "pt":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Oi! Eu posso redefinir sua senha",
+            "engagement_quick_replies": [
+              {"button":"Esqueceu a senha","say":"Esqueci a minha senha"},
+              {"button":"Alterar a senha","say":"gostaria de mudar minha senha"},
+              {"button":"Problemas de acesso","say":"Estou tendo problemas ao fazer login nos recursos"}
+            ]
+        },
+        "ru":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Привет! Я могу сбросить ваш пароль",
+            "engagement_quick_replies": [
+              {"button":"Забыли пароль","say":"я забыл мой пароль"},
+              {"button":"Изменить пароль","say":"Я хотел бы изменить свой пароль"},
+              {"button":"Проблемы со входом","say":"У меня возникают проблемы при входе в ресурсы"}
+            ]
+        },
+        "zh":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "你好！我可以重设你的密码",
+            "engagement_quick_replies": [
+              {"button":"忘记密码","say":"我忘记了我的密码"},
+              {"button":"更改密码","say":"我想更改我的密码"},
+              {"button":"登录问题","say":"登录资源时遇到问题"}
+            ]
+        }
+      }
+    },
+    {
+      "name": "priv_form_custsuccess_aco",
+      "substring": "category=1399829203735",
+      "endpoint": "https://aocflow-endpoint.avaya.com/53b29d9524029b2797e4a0c43a4d3b0f446e276eed84e4ab4dd04a6f897d1e0d",
+      "maximize": true,
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "Customer Success AI Agent",
+          "engagement_message": "Hi! Want to chat?",
+          "engagement_quick_replies": [
+            {"button":"Chat with a Live Agent","say":"transfer me to an agent"}
+          ]
+        }
+      }
+    },
+    {
+      "name": "priv_form_custsuccess_spaces",
+      "substring": "category=1399771881844",
+      "endpoint": "https://aocflow-endpoint.avaya.com/53b29d9524029b2797e4a0c43a4d3b0f446e276eed84e4ab4dd04a6f897d1e0d",
+      "maximize": true,
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "Customer Success AI Agent",
+          "engagement_message": "Hi! Want to chat?",
+          "engagement_quick_replies": [
+            {"button":"Chat with a Live Agent","say":"transfer me to an agent"}
+          ]
+        }
+      }
+    },
+    {
+      "name": "priv_tile_it_hardware",
+      "substring": "function=1397215363287",
+      "endpoint": "https://aocflow-endpoint.avaya.com/0d137ae1d366efe11375f3c8271a2851d1eaa97a941f6ea8f2262f5073d277a3",
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "IT Support AI Agent",
+          "engagement_message": "Need a bitlocker recovery key?",
+          "engagement_quick_replies": [
+            {"button":"Yes","say":"I need a recovery key from Bitlocker"},
+            {"button":"No","say":"No thank you!"}
+          ]
+        },
+        "ar":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "هل تحتاج إلى مفتاح استرداد bitlocker؟",
+            "engagement_quick_replies": [
+              {"button":"نعم","say":"أحتاج إلى مفتاح استرداد من Bitlocker"},
+              {"button":"رقم","say":"لا، شكرا!"}
+            ]
+        },
+        "de":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Benötigen Sie einen Bitlocker-Wiederherstellungsschlüssel?",
+            "engagement_quick_replies": [
+              {"button":"ja","say":"Ich brauche einen Wiederherstellungsschlüssel von Bitlocker"},
+              {"button":"Nein","say":"Nein danke!"}
+            ]
+        },
+        "es":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "¿Necesita una clave de recuperación de bitlocker?",
+            "engagement_quick_replies": [
+              {"button":"Sí","say":"Necesito una clave de recuperación de Bitlocker"},
+              {"button":"No","say":"¡No gracias!"}
+            ]
+        },
+        "fr":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Besoin d'une clé de récupération bitlocker ?",
+            "engagement_quick_replies": [
+              {"button":"Oui","say":"J'ai besoin d'une clé de récupération de Bitlocker"},
+              {"button":"Non","say":"Non, merci!"}
+            ]
+        },
+        "he":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "צריך מפתח שחזור של Bitlocker?",
+            "engagement_quick_replies": [
+              {"button":"כן","say":"אני צריך מפתח שחזור מ-Bitlocker"},
+              {"button":"לא","say":"לא תודה!"}
+            ]
+        },
+        "it":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Hai bisogno di una chiave di ripristino di BitLocker?",
+            "engagement_quick_replies": [
+              {"button":"sì","say":"Ho bisogno di una chiave di ripristino da Bitlocker"},
+              {"button":"No","say":"No grazie!"}
+            ]
+        },
+        "ja":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "BitLocker回復キーが必要ですか？",
+            "engagement_quick_replies": [
+              {"button":"はい","say":"Bitlockerからの回復キーが必要です"},
+              {"button":"番号","say":"いいえ、結構です！"}
+            ]
+        },
+        "hi":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "बिटलॉकर पुनर्प्राप्ति कुंजी की आवश्यकता है?",
+            "engagement_quick_replies": [
+              {"button":"हां","say":"मुझे Bitlocker से पुनर्प्राप्ति कुंजी चाहिए"},
+              {"button":"नहीं","say":"नहीं धन्यवाद!"}
+            ]
+        },
+        "nl":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Een bitlocker-herstelsleutel nodig?",
+            "engagement_quick_replies": [
+              {"button":"Ja","say":"Ik heb een herstelsleutel van Bitlocker nodig"},
+              {"button":"Nee","say":"Nee, dank u!"}
+            ]
+        },
+        "pt":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Precisa de uma chave de recuperação do bitlocker?",
+            "engagement_quick_replies": [
+              {"button":"sim","say":"Eu preciso de uma chave de recuperação do Bitlocker"},
+              {"button":"Não","say":"Não, obrigado!"}
+            ]
+        },
+        "ru":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "Нужен ключ восстановления битлокера?",
+            "engagement_quick_replies": [
+              {"button":"да","say":"Мне нужен ключ восстановления от Bitlocker"},
+              {"button":"Нет","say":"Нет, спасибо!"}
+            ]
+        },
+        "zh":
+        {
+            "webchat_title": "IT Support AI Agent",
+            "engagement_message": "需要一个 bitlocker 恢复密钥？",
+            "engagement_quick_replies": [
+              {"button":"是的","say":"需要一个 bitlocker 恢复密钥？"},
+              {"button":"不","say":"不，谢谢！"}
+            ]
+        }
+      }
+    },
+    {
+      "name": "priv_tile_avaya_learning",
+      "substring": "function=1397236311834",
+      "hide": true,
+      "endpoint": "https://aocflow-endpoint.avaya.com/e9712b690836f66c1cd3261af944538518b7d4607a1755688468db3d938235b6",
+      "text": 
+      {
+        "default":
+        {
+          "webchat_title": "Avaya Learning AI Agent",
+          "engagement_message": "",
+          "engagement_quick_replies": []
+        }
+      }
+    }
+  ]
+}
